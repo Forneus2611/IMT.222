@@ -6,3 +6,4 @@ Ivan Jesus Corrales Jimenez - Sistemas Embebidos
 Para clonar usaremos el la aplicacion Git bash que nos permite el acceso a la consola, para clonar los repositorios se debe acceder primero a la carpeta en la que guardaremos los datos con el comando cd seguido del nombre de la carpeta, despues usaremos el comando de git clone seguido con el enlace de nuestro repositorio en git hub, con esto habremos clonado el repositorio en la carpeta :) .
 ##  Que es un sistema embebido?
 En mis palabras un sistema embebido es una mini computadora capaz de cumplir una unica accion en especifico.
+Cambios
