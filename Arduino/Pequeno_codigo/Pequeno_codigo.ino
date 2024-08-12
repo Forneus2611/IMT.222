@@ -1,19 +1,21 @@
 
 #define Motor 9
+#define del 5000
+#define del2 1000
 
 void setup() {
 
-  pinMode(9, OUTPUT);
+  pinMode(Motor, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(9, HIGH);
+  digitalWrite(Motor, HIGH);
   
 
-  delay(5000);
+  delay(del);
 
-  digitalWrite(9, LOW);
+  digitalWrite(Motor, LOW);
   
-  delay(1000)
+  delay(del2)
   
 }
