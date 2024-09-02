@@ -17,15 +17,14 @@ void setup() {
 
 void loop() {
 
-  // Mostrar el contador en el monitor serial
-  Serial.print("Pulsaciones: ");
-  Serial.println(cont);
-  delay(TIME); // Espera un segundo antes de actualizar de nuevo
+
 }
 
 void interrumpir() {
   flag = !flag;
-  
+    // Mostrar el contador en el monitor serial
+  Serial.print("Pulsaciones: ");
+  Serial.println(cont);
   if (flag) {
     cont++;
     flag = false;
